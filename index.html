@@ -1,0 +1,21 @@
+<!-- Waitlist Capture Interface -->
+<div class="form-container">
+    <!-- Web3Forms Secure Submission Endpoint -->
+    <form class="signup-form" action="https://api.web3forms.com/submit" method="POST" id="waitlistForm">
+        
+        <!-- Your secure Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="ed71041d-6df5-4e6d-aa54-64da03e69ef3">
+        
+        <!-- Anti-spam honeypot field for bots -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <div class="input-group">
+            <input type="email" name="email" placeholder="Enter your email for priority access..." required aria-label="Email address">
+        </div>
+        <button type="submit" class="btn-submit">JOIN THE WAITLIST</button>
+    </form>
+    
+    <div class="footer-note">
+        By joining, you agree to our <a href="#">privacy policy</a>.
+    </div>
+</div>
